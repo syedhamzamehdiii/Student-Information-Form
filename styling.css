@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #21a080be;
+}
+
+form {
+    background-color: rgba(128, 128, 128, 0.26);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+  color: rgb(231, 40, 6);  
+
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.percentage-input {
+    position: relative;
+    width: fit-content;
+}
+
+.percentage-input input {
+    padding-right: 20px; 
+    width: 70px;
+    height: 10px;
+    font-size: 16px;
+}
+
+.percentage-input::after {
+    content: '%';
+    position: absolute;
+    right: 40px;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #000;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.radio-options {
+    display: flex;
+    gap: 15px; 
+}
+
+.radio-options label {
+    display: inline-flex; 
+    align-items: center;  
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 5px; 
+    transform: scale(1.1); 
+}
+
+form p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding-right: 20px; 
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    transform: scale(1.2); 
+}
+
